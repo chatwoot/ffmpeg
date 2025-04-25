@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'FFmpeg iOS Binaries'
   s.homepage         = 'https://github.com/chatwoot/ffmpeg'
   s.license          = { :type => "LGPL-3.0" }
-  s.authors          = 'shaquillehinds'
+  s.authors          = { 'chatwoot' => 'https://github.com/chatwoot' }
   s.platform         = :ios, '12.1'
   s.static_framework = true
   s.requires_arc     = true
